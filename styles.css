@@ -10,7 +10,14 @@
 }
 .avatar {
   width: 30%;
+  margin-right: 100px;
 }
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
 .name {
   font: bold 24px/32px Arial, Helvetica, sans-serif;
   color: rgb(16, 94, 83);

@@ -18,11 +18,6 @@
   flex-direction: column;
 }
 
-.name {
-  font: bold 24px/32px Arial, Helvetica, sans-serif;
-  color: rgb(16, 94, 83);
-}
-
 .profile-description {
   margin-top: 40px;
   font: bold 20px/26px Arial, sans-serif;
@@ -31,6 +26,8 @@
 }
 
 .link {
+  font: bold 24px/32px Arial, Helvetica, sans-serif;
+  color: rgb(16, 94, 83);
   margin-top: 20px;
   font: bold 20px/26px Arial, sans-serif;
 }

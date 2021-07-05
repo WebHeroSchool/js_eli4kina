@@ -1,0 +1,33 @@
+.title {
+  text-align: center;
+}
+
+.main {
+  margin-top: 100px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.avatar {
+  width: 30%;
+  margin-right: 100px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-description {
+  margin-top: 40px;
+  font: bold 20px/26px Arial, sans-serif;
+  text-align: left;
+  color: #000;
+}
+
+.link {
+  font: bold 24px/32px Arial, Helvetica, sans-serif;
+  color: rgb(16, 94, 83);
+  margin-top: 20px;
+  font: bold 20px/26px Arial, sans-serif;
+}

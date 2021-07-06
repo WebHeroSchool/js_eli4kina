@@ -20,7 +20,17 @@ function getUserName() {
  }
 
 function getUser (avatar, profileDescription, profileLink) {
-  fetch(githubAPIURL + userName)
+  const load = document.getElementById('1');
+  const loading = new Promise((resolve, redject) => {
+    setTimeout(() => {
+      resolve(load.classList.add('not_active'));
+      redject(console.log('Что-то пошло не так'))
+    }, 3000);
+  });
+
+
+  Promise.all ([loading])
+  .then (([loadPage]) => fetch(githubAPIURL + userName)) 
   .then(res =>  res.json())
   .then(json => {
 

@@ -1,8 +1,8 @@
 # JavaScript_Style_Guide
 
 Руководство по оформлению кода на Java Script
-
-##Содержание 
+&nbsp;
+## Содержание 
 
 0. [Пробелы](#пробелы)
 1. [Переменные](#переменные)
@@ -17,7 +17,7 @@
 10. [Стрелочные функции](#стрелочные-функции)
 11. [Классы и конструкторы](#классы-и-конструкторы)
 
-## Переменные.
+## Пробелы.
 
 &nbsp;
 #### 1. Используй табуляцию вместо 4-х пробелов.
@@ -71,6 +71,7 @@ var CONFIG = {};
 let x = "y";
 const CONFIG = {};
 ```
+&nbsp;
 
 #### 2. Если ты не переназначаешь переменную, то используй const для ее объявления. И наоборот.
 
@@ -85,9 +86,7 @@ if (true) {
   count += 1;
 }
 ```
-
 &nbsp;
-
 ✅ Хорошо
 ```javascript
 const a = 1;
@@ -113,9 +112,7 @@ const story = [
   , aTime
 ];
 ```
-
 &nbsp;
-
 ✅ Хорошо
 ```javascript
 const story = [
@@ -152,9 +149,7 @@ function foo() {
     'search your feelings, you know it to be foo'
 }
 ```
-
 &nbsp;
-
 ✅ Хорошо
 ```javascript
 const luke = {};
@@ -187,9 +182,7 @@ if (test)
   return false;
 function foo() { return false; }
 ```
-
 &nbsp;
-
 ✅ Хорошо
 ```javascript
 if (test) return false;
@@ -213,9 +206,7 @@ else {
   thing3();
 }
 ```
-
 &nbsp;
-
 ✅ Хорошо
 ```javascript
 if (test) {
@@ -240,9 +231,7 @@ else {
   thing3();
 }
 ```
-
 &nbsp;
-
 ✅ Хорошо
 ```javascript
 if (test) 
@@ -264,9 +253,7 @@ else
 ```javascript
 const item = new Object();
 ```
-
 &nbsp;
-
 ✅ Хорошо
 ```javascript
 const item = {};
@@ -286,9 +273,7 @@ let e = {foo: function() {
   dosomething();
 }};
 ```
-
 &nbsp;
-
 ✅ Хорошо
 ```javascript
 let a = {};
@@ -325,9 +310,7 @@ foo == true
 bananas != 1
 value == undefined
 ```
-
 &nbsp;
-
 ✅ Хорошо
 ```javascript
 typeof foo === 'undefined'
@@ -355,9 +338,7 @@ foo === null
 ```javascript
 const items = new Array();
 ```
-
 &nbsp;
-
 ✅ Хорошо
 ```javascript
 const items = [];
@@ -376,9 +357,7 @@ const items = [];
 ```javascript
 const name = "Capt. Janeway";
 ```
-
 &nbsp;
-
 ✅ Хорошо
 ```javascript
 const name = 'Capt. Janeway';
@@ -397,9 +376,7 @@ const name = 'Capt. Janeway';
 const f = function(){};
 function a(){};
 ```
-
 &nbsp;
-
 ✅ Хорошо
 ```javascript
 const x = function() {};
@@ -421,9 +398,7 @@ while(i) {
   a();
 }
 ```
-
 &nbsp;
-
 ✅ Хорошо
 ```javascript
 const a = function() {};
@@ -448,9 +423,7 @@ for (let i=10; i; i--) {
   return x * y;
 });
 ```
-
 &nbsp;
-
 ✅ Хорошо
 ```javascript
 [1, 2, 3].map((x) => {
@@ -472,9 +445,7 @@ for (let i=10; i; i--) {
 const colleague = new person();
 const friend = new person.acquaintance();
 ```
-
 &nbsp;
-
 ✅ Хорошо
 ```javascript
 const colleague = new Person();
